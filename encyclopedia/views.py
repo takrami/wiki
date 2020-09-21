@@ -24,3 +24,9 @@ def entry(request, entry):
             "entry": markdowner.convert(entryPage),
             "entryTitle": entry
         })
+
+
+def create(request):
+    return render(request, "encyclopedia/create.html", {
+
+    })
